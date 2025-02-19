@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+body {
+  font-family: 'DM Sans';
+  background-color: #fafafa;
+}
+
+.btn {
+  background-color: #ffffff;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}

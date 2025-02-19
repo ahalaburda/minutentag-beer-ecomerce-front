@@ -1,0 +1,41 @@
+$toggle-color: #ffa726;
+$text-color: #888;
+
+.word-truncate-container {
+  position: relative;
+  width: 100%;
+  color: $text-color;
+  line-height: 1.6;
+  font-size: 14px;
+  line-height: 24px;
+
+  .text-content {
+    display: inline;
+    font-weight: 400;
+  }
+
+  .ellipsis {
+    margin-right: 4px;
+  }
+}
+
+.inline-toggle-button {
+  display: inline-block;
+  background: none;
+  border: none;
+  color: $toggle-color;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 4px;
+  font-weight: 700;
+
+  white-space: nowrap;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
